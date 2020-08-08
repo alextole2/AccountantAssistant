@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?android:attr/buttonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/five_margin"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/ten_margin"
+        android:layout_weight="@dimen/full_layout_weight"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/design_default_color_background" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/ten_margin"
+        android:layout_weight="@dimen/full_layout_weight"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/save"
+        android:textColor="@color/design_default_color_background" />
+</LinearLayout>

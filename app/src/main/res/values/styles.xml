@@ -1,0 +1,107 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CustomSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorPrimary</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/disableThumbColor</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/disableForegroundColor</item>
+    </style>
+
+    <style name="TitleTextView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:background">@color/colorPrimaryMedium</item>
+        <item name="android:gravity">center|center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="SubTitleTextView" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">gravity</item>
+        <item name="android:textColor">@color/defaultFontColor</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:gravity">center|center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="cardMarginStyle">
+        <item name="android:layout_marginStart">@dimen/ten_margin</item>
+        <item name="android:layout_marginEnd">@dimen/ten_margin</item>
+        <item name="android:layout_marginTop">@dimen/five_margin</item>
+        <item name="android:layout_marginBottom">@dimen/five_margin</item>
+    </style>
+
+    <style name="smallCardStyle" parent="CardView">
+        <item name="android:layout_width">@dimen/small_card_width</item>
+        <item name="android:layout_height">@dimen/small_card_height</item>
+        <item name="android:layout_marginEnd">@dimen/small_card_margin</item>
+        <item name="android:layout_marginTop">@dimen/small_card_margin</item>
+        <item name="android:layout_marginBottom">@dimen/small_card_margin</item>
+    </style>
+
+    <style name="rightTopCornerCardStyle" parent="CardView">
+        <item name="android:layout_width">@dimen/small_card_width</item>
+        <item name="android:layout_height">@dimen/small_card_height</item>
+        <item name="android:layout_marginTop">@dimen/card_margin</item>
+        <item name="android:layout_marginBottom">@dimen/card_margin</item>
+    </style>
+
+    <style name="rightBottomCornerCardStyle" parent="CardView">
+        <item name="android:layout_width">@dimen/small_card_width</item>
+        <item name="android:layout_height">@dimen/small_card_height</item>
+    </style>
+
+    <style name="landscapeCardStyle" parent="CardView">
+        <item name="android:layout_width">@dimen/landscape_card_width</item>
+        <item name="android:layout_height">@dimen/landscape_card_height</item>
+        <item name="android:layout_marginEnd">@dimen/small_card_margin</item>
+        <item name="android:layout_marginTop">@dimen/small_card_margin</item>
+        <item name="android:layout_marginBottom">@dimen/small_card_margin</item>
+    </style>
+
+    <style name="topLandscapeLayoutStyle" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/landscape_card_height</item>
+        <item name="android:layout_marginTop">@dimen/ten_margin</item>
+        <item name="android:layout_marginStart">@dimen/ten_margin</item>
+        <item name="android:layout_marginEnd">@dimen/ten_margin</item>
+    </style>
+
+    <style name="bottomLandscapeLayoutStyle" parent="CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/landscape_card_height</item>
+        <item name="android:layout_marginTop">@dimen/five_margin</item>
+        <item name="android:layout_marginStart">@dimen/ten_margin</item>
+        <item name="android:layout_marginEnd">@dimen/ten_margin</item>
+        <item name="android:layout_marginBottom">@dimen/five_margin</item>
+    </style>
+
+    <style name="FocusEditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">@color/disableForegroundColor</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+</resources>

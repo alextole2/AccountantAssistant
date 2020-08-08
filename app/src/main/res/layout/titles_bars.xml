@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titles_bar_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:theme="@style/TitleTextView" />
+
+    <TextView
+        android:id="@+id/titles_bar_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_margin="@dimen/five_margin"
+        android:theme="@style/SubTitleTextView" />
+</LinearLayout>
